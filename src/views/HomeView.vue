@@ -13,9 +13,6 @@
         <p v-if="exercise.excRepeat.length > 0">Количество повторений: {{ exercise.excRepeat }}</p>
         <p>Количество подходов: {{ exercise.excApproach }}</p>
         <p>Описание: {{ exercise.excContent }}</p>
-        <!-- <div class="btn_edit">
-          <button class="btn danger" @click="currentIdOfTask = exercise.id, removeExercise()">Удалить</button>
-        </div> -->
       </div>
     </div>
 

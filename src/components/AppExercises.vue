@@ -98,6 +98,7 @@ export default {
     const exc = computed(() => store.state.myExc)
 
     function addToMyExc (exercise) {
+      showModal.value = false
       return store.commit('addExc', exercise)
     }
 
